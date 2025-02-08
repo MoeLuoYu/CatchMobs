@@ -1,0 +1,11 @@
+name: CatchMobs
+main: xyz.moeluoyu.catchmobs.Main
+version: 1.1
+api-version: 1.18
+commands:
+  catchmobs:
+    aliases:
+      - cm
+      - catch
+    description: 重载配置文件和数据文件
+    permission: catchmobs.admin

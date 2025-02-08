@@ -1,0 +1,22 @@
+# 调试模式
+debug: false
+# 捕获工具
+catch-item: LEAD
+# 捕获模式
+mode: white
+# 黑名单模式下生效
+blacklist:
+  - CREEPER
+  - ENDER_DRAGON
+  - WITHER_BOSS
+# 白名单模式下生效
+whitelist:
+  - WOLF
+  - SHEEP
+  - COW
+  - PIG
+  - CHICKEN
+  - PANDA
+  - VILLAGER
+  - DONKEY
+  - HORSE
