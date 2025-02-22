@@ -5,7 +5,7 @@
 
     <groupId>xyz.moeluoyu</groupId>
     <artifactId>CatchMobs</artifactId>
-    <version>1.1</version>
+    <version>1.2</version>
 
     <name>CatchMobs</name>
     <description>A Bukkit plugin to catch and release mobs</description>
