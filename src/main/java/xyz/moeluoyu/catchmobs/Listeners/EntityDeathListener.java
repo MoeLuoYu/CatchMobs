@@ -101,6 +101,14 @@ public class EntityDeathListener implements Listener {
                     }
                     return; // 物品已使用过，不能再次捕捉
                 }
+                // 检查杀手物品是否堆叠
+                if (killerItem.getAmount() > 1) {
+                    Player killer = event.getEntity().getKiller();
+                    if (killer != null) {
+                        killer.sendMessage(ChatColor.RED + "当前物品已堆叠，无法捕捉！");
+                    }
+                    return; // 物品已堆叠，不进行捕捉操作
+                }
             }
             String mode = config.getString("mode", "black");
             String entityType = entity.getType().name();
